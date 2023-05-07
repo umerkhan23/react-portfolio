@@ -2,10 +2,9 @@ import Lottie from 'lottie-react';
 import Loading from './loading.json';
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './App.css';
 import './index.css';
-import Main from './Main';
-import Hero from './Hero';
+import Main from './components/Main';
+import Hero from './components/Hero';
 import TeckStack from './components/TeckStack';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -20,10 +19,10 @@ function App() {
     }, []);
   return (
     <>
-        {loading && <div className='items-center w-1/2 absolute left-1/4'>
+    {loading && <div className='items-center w-1/2 absolute left-1/4'>
             <Lottie animationData={Loading} />
             </div>}
-    {!loading && <div>
+    {!loading && <div className=''>
       <BrowserRouter>
       <Navbar />
       <div>

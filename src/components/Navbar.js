@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className='flex items-start ml-8 p-6 pr-16'>
                 <h1 className='text-xl text-white'>Muhammad Umer Khan</h1>
             </div>
-                <div className='flex text-right ml-8 p-6 pr-16 space-x-6 absolute right-0'>
+                <div className='flex text-right ml-8 p-6 pr-16 space-x-6 relative left-96'>
                     <Link to="/">
                         <h1 className='text-xl text-white hover:text-blue-600'>Home</h1>
                     </Link>

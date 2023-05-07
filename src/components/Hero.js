@@ -2,8 +2,8 @@ import React from 'react';
 import { Typewriter } from 'react-simple-typewriter'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import Shape from './assets/splash5.png'
-import Me from './assets/me.png'
+import Shape from '../assets/splash5.png'
+import Me from '../assets/me.png'
 
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
             <div className='flex items-center bg-slate-900'>
                 <img src={Shape} alt='shape' className='relative w-1/2' />
                 <img src={Me} alt='shape' className='absolute left-28 w-1/3' />
-                <div className='flex flex-col absolute start-1/2 top-2/5 ml-32'>
+                <div className='flex flex-col ml-32'>
                     <h1 className='text-3xl text-white mb-6'>Muhammad Umer Khan</h1>
                     <h1 className='text-xl text-white mb-6'>I am a
                         <span className='text-blue-600'>

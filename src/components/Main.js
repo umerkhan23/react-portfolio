@@ -1,9 +1,9 @@
 import React from 'react';
 import Hero from './Hero';
-import TeckStack from './components/TeckStack';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Certificates from './components/Certificates';
+import TeckStack from './TeckStack';
+import Projects from './Projects';
+import Contact from './Contact';
+import Certificates from './Certificates';
 
 const Main = () => {
     return (

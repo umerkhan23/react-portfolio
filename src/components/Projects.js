@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div className='flex flex-col bg-sky-700'>
+        <div className='flex flex-col'>
            hello <br />
            hello <br />
            hello <br />

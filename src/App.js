@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import './index.css';
 import Main from './Main';
-import About from './About';
+import Hero from './Hero';
 import TeckStack from './components/TeckStack';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -16,7 +16,7 @@ function App() {
     useEffect(() => {
         setTimeout(() => {
             setLoading(false);
-        }, 5000);
+        }, 3000);
     }, []);
   return (
     <>
@@ -29,7 +29,7 @@ function App() {
       <div>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/Hero" element={<Hero />} />
         <Route path="/TeckStack" element={<TeckStack />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Contact" element={<Contact />} />

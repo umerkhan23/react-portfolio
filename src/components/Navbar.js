@@ -11,11 +11,11 @@ const Navbar = () => {
                     <Link to="/">
                         <h1 className='text-xl text-white hover:text-blue-600'>Home</h1>
                     </Link>
-                    <Link to="/About">
-                        <h1 className='text-xl text-white hover:text-blue-600'>About</h1>
-                    </Link>
                     <Link to="/TeckStack">
                         <h1 className='text-xl text-white hover:text-blue-600'>Teck Stack</h1>
+                    </Link>
+                    <Link to="/Certificate">
+                        <h1 className='text-xl text-white hover:text-blue-600'>Certificates</h1>
                     </Link>
                     <Link to="/Projects">
                         <h1 className='text-xl text-white hover:text-blue-600'>Projects</h1>

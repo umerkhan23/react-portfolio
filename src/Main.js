@@ -1,14 +1,16 @@
 import React from 'react';
-import About from './About';
+import Hero from './Hero';
 import TeckStack from './components/TeckStack';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Certificates from './components/Certificates';
 
 const Main = () => {
     return (
         <div className='bg-slate-900'>
-            <About />
+            <Hero />
             <TeckStack />
+            <Certificates />
             <Projects />
             <Contact />
         </div>

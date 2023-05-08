@@ -67,7 +67,7 @@ const About = () => {
                                 />
                             </span>
                         </h1>
-                        <p className='text-xl text-slate-400 mb-6'>
+                        <p className='text-xl text-slate-400 mb-6 p-4'>
                             Welcome to my portfolio website! A software engineer skilled in mern-stack development, with a passion for coding and a quick learning ability to adapt to new technologies and challenges. You can find my projects and skills on the website, feel free to explore and ask any questions.
                         </p>
                         <div className='flex space-x-12 justify-content-evenly justify-center'>

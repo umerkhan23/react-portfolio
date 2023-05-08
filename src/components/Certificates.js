@@ -2,7 +2,7 @@ import React from 'react';
 
 const Certificates = () => {
     return (
-        <div>
+        <div className='h-screen'>
             hello
         </div>
     );

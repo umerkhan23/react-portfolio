@@ -3,13 +3,14 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 import MenuIcon from "../assets/menu-icon.svg";
 import CloseIcon from "../assets/close-icon.svg";
+import Resume from "../assets/Resume.pdf";
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
     const lowerCasePage = page.toLowerCase();
     return (
         <AnchorLink
             className={`${selectedPage === lowerCasePage ? "text-blue-600" : ""
-                } hover:text-blue-600 transition duration-500`}
+                } hover:text-blue-600 transition duration-500 p-1`}
             href={`#${lowerCasePage}`}
             onClick={() => setSelectedPage(lowerCasePage)}
         >
@@ -30,7 +31,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 <h4 className="font-playfair text-2xl font-bold text-white">Muhammad Umer Khan</h4>
                 {/* DESKTOP NAV */}
                 {isDesktop ? (
-                    <div className="flex justify-between gap-16 font-opensans text-white text-sm font-semibold">
+                    <div className="flex justify-between gap-12 font-opensans text-white text-sm font-semibold">
                         <Link
                             page="Home"
                             selectedPage={selectedPage}
@@ -56,6 +57,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />
+                        <a href={Resume} download className="border-blue-600 border-spacing-1 border-solid border-2 p-1 rounded-2xl hover:bg-blue-600" > Resume</a>
                     </div>
                 ) : (
                     <button
@@ -103,6 +105,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
+              <a href={Resume} download className="border-blue-600 border-spacing-1 border-solid border-2 p-1 rounded-2xl hover:bg-blue-600 w-24" > Resume</a>
             </div>
           </div>
         )}

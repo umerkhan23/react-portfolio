@@ -49,7 +49,9 @@ const Main = () => {
                     <Home setSelectedPage={setSelectedPage} />
                 </motion.div>
             </div>
+            <div id='teckstack' className="">
             <LineGradient />
+            </div>
             <div className="">
                 <motion.div
                     onViewportEnter={() => setSelectedPage("teckstack")}
@@ -57,7 +59,9 @@ const Main = () => {
                     <TeckStack />
                 </motion.div>
             </div>
+            <div id='certificates' className="">
             <LineGradient />
+            </div>
             <div className="">
                 <motion.div
                     onViewportEnter={() => setSelectedPage("certificates")}
@@ -65,7 +69,9 @@ const Main = () => {
                     <Certificates />
                 </motion.div>
             </div>
+            <div id='projects' className="">
             <LineGradient />
+            </div>
             <div className="">
                 <motion.div
                     onViewportEnter={() => setSelectedPage("projects")}
@@ -73,7 +79,9 @@ const Main = () => {
                     <Projects />
                 </motion.div>
             </div>
+            <div id='contact' className="">
             <LineGradient />
+            </div>
             <div className="">
                 <motion.div
                     onViewportEnter={() => setSelectedPage("contact")}

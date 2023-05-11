@@ -50,7 +50,7 @@ const Main = () => {
                 </motion.div>
             </div>
             <div id='teckstack' className="">
-            <LineGradient />
+                <LineGradient />
             </div>
             <div className="">
                 <motion.div
@@ -60,34 +60,38 @@ const Main = () => {
                 </motion.div>
             </div>
             <div id='certificates' className="">
-            <LineGradient />
+                <LineGradient />
             </div>
-            <div className="">
-                <motion.div
-                    onHoverStart={() => setSelectedPage("certificates")}
-                >
-                    <Certificates />
-                </motion.div>
-            </div>
-            <div id='projects' className="">
-            <LineGradient />
-            </div>
-            <div className="">
-                <motion.div
-                    onHoverStart={() => setSelectedPage("projects")}
-                >
-                    <Projects />
-                </motion.div>
-            </div>
-            <div id='contact' className="">
-            <LineGradient />
-            </div>
-            <div className="">
-                <motion.div
-                    onHoverStart={() => setSelectedPage("contact")}
-                >
-                    <Contact />
-                </motion.div>
+            <div className="bg-blue-600">
+                <div className="">
+                    <motion.div
+                        onHoverStart={() => setSelectedPage("certificates")}
+                    >
+                        <Certificates />
+                    </motion.div>
+                </div>
+                <div id='projects' className="">
+                    <LineGradient />
+                </div>
+                <div className="">
+                    <motion.div
+                        onHoverStart={() => setSelectedPage("projects")}
+                    >
+                        <Projects />
+                    </motion.div>
+                </div>
+                <div id='contact' className="">
+                    <LineGradient />
+                </div>
+                <div className="bg-slate-900">
+                    <div className="">
+                        <motion.div
+                            onHoverStart={() => setSelectedPage("contact")}
+                        >
+                            <Contact />
+                        </motion.div>
+                    </div>
+                </div>
             </div>
             <Footer />
         </div>

@@ -1,0 +1,24 @@
+{
+  "Skills": [
+    {
+      "id": "1",
+      "Name": "HTML",
+      "Url": "https://www.w3schools.com/html/"
+    },
+    {
+      "id": "2",
+      "Name": "CSS",
+      "Url": "https://www.w3schools.com/css/"
+    },
+    {
+      "id": "3",
+      "Name": "React",
+      "Url": "https://www.w3schools.com/react/"
+    },
+    {
+      "id": "4",
+      "Name": "Node",
+      "Url": "https://www.w3schools.com/node/"
+    }
+  ]
+}

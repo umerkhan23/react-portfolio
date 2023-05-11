@@ -10,7 +10,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
     return (
         <AnchorLink
             className={`${selectedPage === lowerCasePage ? "text-blue-600" : ""
-                } hover:text-blue-600 transition duration-500 p-1`}
+                } hover:text-blue-600 transition duration-500 p-3`}
             href={`#${lowerCasePage}`}
             onClick={() => setSelectedPage(lowerCasePage)}
         >
@@ -26,12 +26,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
     return (
         <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-4`}>
-            <div className="flex items-center justify-between mx-auto w-5/6">
+            <div className="flex items-center justify-between mx-auto w-11/12">
 
                 <h4 className="font-playfair text-2xl font-bold text-white">Muhammad Umer Khan</h4>
                 {/* DESKTOP NAV */}
                 {isDesktop ? (
-                    <div className="flex justify-between gap-12 font-opensans text-white text-sm font-semibold">
+                    <div className="flex justify-between gap-10 font-opensans text-white text-sm font-semibold">
                         <Link
                             page="Home"
                             selectedPage={selectedPage}
@@ -57,7 +57,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />
-                        <a href={Resume} download className="border-blue-600 border-spacing-1 border-solid border-2 p-1 rounded-2xl hover:bg-blue-600" > Resume</a>
+                        <a href={Resume} download className="border-blue-600 border-spacing-1 border-solid border-2 p-3 rounded-3xl hover:bg-blue-600" > Resume</a>
                     </div>
                 ) : (
                     <button
@@ -105,7 +105,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
-              <a href={Resume} download className="border-blue-600 border-spacing-1 border-solid border-2 p-1 rounded-2xl hover:bg-blue-600 w-24" > Resume</a>
+              <a href={Resume} download className="border-blue-600 border-spacing-1 border-solid border-2 p-3 rounded-3xl hover:bg-blue-600 w-28" > Resume</a>
             </div>
           </div>
         )}

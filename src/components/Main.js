@@ -44,7 +44,7 @@ const Main = () => {
                     />
                 )}
                 <motion.div
-                    onViewportEnter={() => setSelectedPage("home")}
+                    onHoverStart={() => setSelectedPage("home")}
                 >
                     <Home setSelectedPage={setSelectedPage} />
                 </motion.div>
@@ -54,7 +54,7 @@ const Main = () => {
             </div>
             <div className="">
                 <motion.div
-                    onViewportEnter={() => setSelectedPage("teckstack")}
+                    onHoverStart={() => setSelectedPage("teckstack")}
                 >
                     <TeckStack />
                 </motion.div>
@@ -64,7 +64,7 @@ const Main = () => {
             </div>
             <div className="">
                 <motion.div
-                    onViewportEnter={() => setSelectedPage("certificates")}
+                    onHoverStart={() => setSelectedPage("certificates")}
                 >
                     <Certificates />
                 </motion.div>
@@ -74,7 +74,7 @@ const Main = () => {
             </div>
             <div className="">
                 <motion.div
-                    onViewportEnter={() => setSelectedPage("projects")}
+                    onHoverStart={() => setSelectedPage("projects")}
                 >
                     <Projects />
                 </motion.div>
@@ -84,7 +84,7 @@ const Main = () => {
             </div>
             <div className="">
                 <motion.div
-                    onViewportEnter={() => setSelectedPage("contact")}
+                    onHoverStart={() => setSelectedPage("contact")}
                 >
                     <Contact />
                 </motion.div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Certificates = () => {
     return (
-        <div className='h-screen'>
+        <div className='bg-slate-900 rounded-t-[120px] h-screen'>
             hello
         </div>
     );

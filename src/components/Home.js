@@ -13,7 +13,7 @@ const About = () => {
         <div id='home' className='bg-slate-900' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             {isDesktop ? (
                 <div className='h-screen flex items-center bg-slate-900'>
-                    <img src={Shape} alt='shape' className='relative w-1/2 animate-ping' />
+                    <img src={Shape} alt='shape' className='relative w-1/2' />
                     <img src={Me} alt='shape' className='absolute left-28 w-1/3' />
                     <div className='flex flex-col ml-32'>
                         <h1 className='text-3xl text-white mb-6'>Muhammad Umer Khan</h1>

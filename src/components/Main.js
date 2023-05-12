@@ -62,7 +62,7 @@ const Main = () => {
             <div id='certificates' className="">
                 <LineGradient />
             </div>
-            <div className="bg-blue-600">
+            <div className="bg-blue-800">
                 <div className="">
                     <motion.div
                         onHoverStart={() => setSelectedPage("certificates")}

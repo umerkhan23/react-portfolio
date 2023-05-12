@@ -6,7 +6,29 @@ const Certificates = () => {
             <div className='flex flex-col items-center'>
                 <h1 className='text-4xl text-center text-white font-bold pt-10 p-3'>Certificates</h1>
             </div>
-            
+            <div className='flex flex-col items-center'>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+            </div>
         </div>
     );
 };

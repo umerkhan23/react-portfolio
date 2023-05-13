@@ -28,7 +28,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-4`}>
       <div className="flex items-center justify-between mx-auto w-11/12">
 
-        <h4 className="font-playfair text-2xl font-bold text-white">Muhammad Umer Khan</h4>
+        <h4 className="text-2xl font-bold text-white">Muhammad Umer Khan</h4>
         {/* DESKTOP NAV */}
         {isDesktop ? (
           <div className="flex justify-between gap-10 font-opensans text-white text-sm font-semibold">

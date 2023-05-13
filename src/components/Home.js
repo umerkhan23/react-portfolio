@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import Shape from '../assets/splash5.png'
-import Me from '../assets/me.png'
+import Me from '../assets/me3.png'
 
 
 const About = () => {
@@ -12,10 +12,9 @@ const About = () => {
     return (
         <div id='home' className='bg-slate-900' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             {isDesktop ? (
-                <div className='h-screen flex items-center bg-slate-900'>
-                    <img src={Shape} alt='shape' className='relative w-1/2' />
-                    <img src={Me} alt='shape' className='absolute left-28 w-1/3' />
-                    <div className='flex flex-col ml-32'>
+                <div className='pt-32 flex items-center bg-slate-900'>
+                    <img src={Me} alt='shape' className='relative w-1/3 mx-32' style={{filter:'drop-shadow( 10px 7px 29px 0px rgba(100, 100, 111, 0.2))'}}/>
+                    <div className='flex flex-col ml-24'>
                         <h1 className='text-3xl text-white mb-6'>Muhammad Umer Khan</h1>
                         <h1 className='text-xl text-white mb-6'>I am a
                             <span className='text-blue-600'>

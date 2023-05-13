@@ -205,7 +205,7 @@ const TeckStack = () => {
                         <h1 className='text-4xl text-center text-white font-bold pt-10 p-3'>Tech Stack</h1>
                     </div>
                     <div className=''>
-                        <div className='py-12'>
+                        <div className='pt-12'>
                             <Swiper
                                 slidesPerView={2}
                                 spaceBetween={20}

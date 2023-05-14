@@ -29,8 +29,8 @@ const About = () => {
                                 />
                             </span>
                         </h1>
-                        <p className='text-xl text-white mb-6 text-justify'>
-                            Welcome to my portfolio website! A<br /> software engineer skilled in mern-stack<br /> development, with a passion for coding<br /> and a quick learning ability to adapt to<br /> new technologies and challenges. You can<br /> find my projects and skills on the website,<br /> feel free to explore and ask any questions.
+                        <p className='text-xl text-white mb-6 mr-32'>
+                            Welcome to my portfolio website! A software engineer skilled in mern-stack development, with a passion for coding and a quick learning ability to adapt to new technologies and challenges. You can find my projects and skills on the website, feel free to explore and ask any questions.
                         </p>
                         <div className='flex space-x-12 justify-content-evenly'>
                             <a href='https://github.com/umerkhan23'>

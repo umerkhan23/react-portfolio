@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import Shape from '../assets/splash5.png'
-import Me from '../assets/me3.png'
+import Me from '../assets/2.png'
 
 
 const About = () => {
@@ -30,7 +30,7 @@ const About = () => {
                             </span>
                         </h1>
                         <p className='text-xl text-white mb-6 mr-32'>
-                            Welcome to my portfolio website! A software engineer skilled in mern-stack development, with a passion for coding and a quick learning ability to adapt to new technologies and challenges. You can find my projects and skills on the website, feel free to explore and ask any questions.
+                        An experienced MERN stack developer with 1+ years of expertise. My portfolio showcases diverse MERN stack projects, emphasizing clean code and exceptional user experiences. I've led teams and delivered successful projects. Let's collaborate on innovative web solutions that meet evolving client needs. Explore my portfolio and connect for potential collaborations.
                         </p>
                         <div className='flex space-x-12 justify-content-evenly'>
                             <a href='https://github.com/umerkhan23'>
@@ -67,7 +67,7 @@ const About = () => {
                             </span>
                         </h1>
                         <p className='text-xl text-slate-400 mb-6 p-4'>
-                            Welcome to my portfolio website! A software engineer skilled in mern-stack development, with a passion for coding and a quick learning ability to adapt to new technologies and challenges. You can find my projects and skills on the website, feel free to explore and ask any questions.
+                        An experienced MERN stack developer with 1+ years of expertise. My portfolio showcases diverse MERN stack projects, emphasizing clean code and exceptional user experiences. I've led teams and delivered successful projects. Let's collaborate on innovative web solutions that meet evolving client needs. Explore my portfolio and connect for potential collaborations.
                         </p>
                         <div className='flex space-x-12 justify-content-evenly justify-center'>
                             <a href='https://github.com/umerkhan23'>

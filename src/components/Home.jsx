@@ -8,18 +8,13 @@ import Shape from '../assets/background.json'
 import Me from '../assets/me.png'
 
 
-const About = () => {
+const Home = () => {
     const isDesktop = useMediaQuery("(min-width: 1000px)");
     return (
         <div id='home' className='bg-slate-900' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             {isDesktop ? (
                 <div className='pt-32 flex items-center bg-slate-900'>
-                    <div className='absolute top-36 ml-16 w-2/5'>
-                        <Lottie animationData={Shape} />
-                    </div>
-                    {/* <img src={Shape} alt='shape' className='absolute w-1/3'/> */}
-                    <img src={Me} alt='shape' className='relative w-1/4 mx-40' />
-                    <div className='flex flex-col ml-24'>
+                    <div className='flex flex-col ml-32'>
                         <h1 className='text-3xl text-white mb-6'>Muhammad Umer Khan</h1>
                         <h1 className='text-xl text-white mb-6'>I am a
                             <span className='text-blue-600'>
@@ -34,7 +29,7 @@ const About = () => {
                                 />
                             </span>
                         </h1>
-                        <p className='text-xl text-white mb-6 mr-32'>
+                        <p className='text-xl text-white mb-6 mr-24'>
                             An experienced MERN stack developer with 1+ years of expertise. My portfolio showcases diverse MERN stack projects, emphasizing clean code and exceptional user experiences. I've led teams and delivered successful projects. Let's collaborate on innovative web solutions that meet evolving client needs. Explore my portfolio and connect for potential collaborations.
                         </p>
                         <div className='flex space-x-12 justify-content-evenly'>
@@ -49,6 +44,11 @@ const About = () => {
                             </a>
                         </div>
                     </div>
+                    <div className='absolute top-36 right-16 ml-16 w-2/5'>
+                        <Lottie animationData={Shape} />
+                    </div>
+                    {/* <img src={Shape} alt='shape' className='absolute w-1/3'/> */}
+                    <img src={Me} alt='shape' className='relative w-1/4 mx-40' />
                 </div>
             )
                 :
@@ -91,4 +91,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Home;

@@ -38,7 +38,7 @@ const Certificates = () => {
                                     <div className='absolute inset-0'>
                                         <div className='absolute inset-0 flex px-10'>
                                             <h1 className='text-lg text-slate-900 font-bold pt-96 m-10 '>Advanced React</h1>
-                                            <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-72 top-96 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
+                                            <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-64 top-96 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
                                         </div>
                                     </div>
                                 </div>
@@ -51,7 +51,7 @@ const Certificates = () => {
                                     <div className='absolute inset-0'>
                                         <div className='absolute inset-0 flex px-10'>
                                             <h1 className='text-lg text-slate-900 font-bold pt-96 m-10 '>Advanced React</h1>
-                                            <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-72 top-96 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
+                                            <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-64 top-96 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@ const Certificates = () => {
                                     <div className='absolute inset-0'>
                                         <div className='absolute inset-0 flex px-10'>
                                             <h1 className='text-lg text-slate-900 font-bold pt-96 m-10 '>Advanced React</h1>
-                                            <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-72 top-96 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
+                                            <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-64 top-96 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@ const Certificates = () => {
                                     <div className='absolute inset-0'>
                                         <div className='absolute inset-0 flex px-10'>
                                             <h1 className='text-lg text-slate-900 font-bold pt-96 m-10 '>Advanced React</h1>
-                                            <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-72 top-96 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
+                                            <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-64 top-96 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
                                         </div>
                                     </div>
                                 </div>
@@ -110,12 +110,12 @@ const Certificates = () => {
                                     <div className=''>
                                         <img src={ReactCertificate} alt="Certificate" className='' />
                                     </div>
-                                    <div className='absolute inset-0'>
+                                    {/* <div className='absolute inset-0'>
                                         <div className='absolute inset-0 flex px-10'>
-                                            <h1 className='text-lg text-slate-900 font-bold pt-96 m-10 '>Advanced React</h1>
-                                            <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-72 top-96 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
+                                            <h1 className='text-md text-slate-900 font-bold pt-64 my-16 mx-5'>Advanced React</h1>
+                                            <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-56 top-64 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -123,12 +123,12 @@ const Certificates = () => {
                                     <div className=''>
                                         <img src={ReactCertificate} alt="Certificate" className='' />
                                     </div>
-                                    <div className='absolute inset-0'>
+                                    {/* <div className='absolute inset-0'>
                                         <div className='absolute inset-0 flex px-10'>
                                             <h1 className='text-lg text-slate-900 font-bold pt-96 m-10 '>Advanced React</h1>
                                             <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-72 top-96 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -136,12 +136,12 @@ const Certificates = () => {
                                     <div className=''>
                                         <img src={ReactCertificate} alt="Certificate" className='' />
                                     </div>
-                                    <div className='absolute inset-0'>
+                                    {/* <div className='absolute inset-0'>
                                         <div className='absolute inset-0 flex px-10'>
                                             <h1 className='text-lg text-slate-900 font-bold pt-96 m-10 '>Advanced React</h1>
                                             <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-72 top-96 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -149,12 +149,12 @@ const Certificates = () => {
                                     <div className=''>
                                         <img src={ReactCertificate} alt="Certificate" className='' />
                                     </div>
-                                    <div className='absolute inset-0'>
+                                    {/* <div className='absolute inset-0'>
                                         <div className='absolute inset-0 flex px-10'>
                                             <h1 className='text-lg text-slate-900 font-bold pt-96 m-10 '>Advanced React</h1>
                                             <a href='https://www.coursera.org/account/accomplishments/verify/GF22HG9JSL7R' className='relative left-72 top-96 my-9 hover:transition-transform hover:translate-y-0.5'><img src={Send} alt="" className="w-8"/></a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </SwiperSlide>
                         </Swiper>

@@ -38,7 +38,7 @@ const Projects = () => {
                                 <div className='absolute bottom-0 inset-0 flex flex-col items-center px-10 translate-y-[100%] group-hover:translate-y-0 transition-all duration-1000'>
                                     <h1 className='text-lg text-white font-bold pt-5'>Inventory Management</h1>
                                     <h1 className='text-md text-white font-bold pt-3'>Technologies</h1>
-                                    <h1 className='text-sm text-white font-bold pt-1'>MongoDB, ExpressJS, React, NodeJS</h1>
+                                    <h1 className='text-sm text-white font-bold pt-1'>MongoDB,ExpressJS,React,NodeJS</h1>
                                     <a href='https://github.com/SamiAsghar/MCS_Inventory' className='text-sm text-white mt-3 p-2 border-spacing-2 border-2 border-blue-600 hover:bg-blue-600 rounded-full'>View Project</a>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@ const Projects = () => {
                             </div>
                             <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70 '>
                                 <div className='absolute bottom-0 inset-0 flex flex-col items-center px-10 translate-y-[100%] group-hover:translate-y-0 transition-all duration-1000'>
-                                    <h1 className='text-lg text-white font-bold pt-5'>Bank Management System</h1>
+                                    <h1 className='text-lg text-white font-bold pt-5'>Bank Management</h1>
                                     <h1 className='text-md text-white font-bold pt-3'>Technologies</h1>
                                     <h1 className='text-sm text-white font-bold pt-1'>JAVA</h1>
                                     <a href='https://github.com/umerkhan23/Bank_Management_System' className='text-sm text-white mt-3 p-2 border-spacing-2 border-2 border-blue-600 hover:bg-blue-600 rounded-full'>View Project</a>

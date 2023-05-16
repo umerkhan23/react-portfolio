@@ -5,14 +5,14 @@ import MenuIcon from "../assets/menu-icon.svg";
 import CloseIcon from "../assets/close-icon.svg";
 import Resume from "../assets/Resume.pdf";
 
-const Link = ({ page, selectedPage, setSelectedPage }) => {
+const Link = ({ page, selectedPage, setSelectedPage, setIsMenuToggled }) => {
   const lowerCasePage = page.toLowerCase();
   return (
     <AnchorLink
       className={`${selectedPage === lowerCasePage ? "text-blue-600" : ""
         } hover:text-blue-600 transition duration-500 p-3`}
       href={`#${lowerCasePage}`}
-      onClick={() => setSelectedPage(lowerCasePage)}
+      onClick={() => {setSelectedPage(lowerCasePage); setIsMenuToggled(false);}}
     >
       {page}
     </AnchorLink>
@@ -36,31 +36,37 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               page="Home"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              setIsMenuToggled={setIsMenuToggled}
             />
             <Link
               page="About"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              setIsMenuToggled={setIsMenuToggled}
             />
             <Link
               page="Teckstack"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              setIsMenuToggled={setIsMenuToggled}
             />
             <Link
               page="Certificates"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              setIsMenuToggled={setIsMenuToggled}
             />
             <Link
               page="Projects"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              setIsMenuToggled={setIsMenuToggled}
             />
             <Link
               page="Contact"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              setIsMenuToggled={setIsMenuToggled}
             />
             <a href={Resume} download className="border-blue-600 border-spacing-1 border-solid border-2 p-3 rounded-3xl hover:bg-blue-600" > Resume</a>
           </div>
@@ -89,31 +95,37 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 page="Home"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
+                setIsMenuToggled={setIsMenuToggled}
               />
               <Link
                 page="About"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
+                setIsMenuToggled={setIsMenuToggled}
               />
               <Link
                 page="Teckstack"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
+                setIsMenuToggled={setIsMenuToggled}
               />
               <Link
                 page="Certificates"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
+                setIsMenuToggled={setIsMenuToggled}
               />
               <Link
                 page="Projects"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
+                setIsMenuToggled={setIsMenuToggled}
               />
               <Link
                 page="Contact"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
+                setIsMenuToggled={setIsMenuToggled}
               />
               <a href={Resume} download className="border-blue-600 border-spacing-1 border-solid border-2 p-3 rounded-3xl hover:bg-blue-600 w-28 mb-10" > Resume</a>
             </div>

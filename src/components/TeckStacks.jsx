@@ -24,7 +24,7 @@ import Git from '../assets/Git.svg';
 import "swiper/css";
 import { Autoplay, Parallax } from "swiper";
 
-const TeckStack = () => {
+const TeckStacks = () => {
     const isDesktop = useMediaQuery("(min-width: 1000px)");
     return (
         <div className='relative top-20 flex flex-col bg-blue-800 rounded-t-[120px] h-[65vh]' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -375,4 +375,4 @@ const TeckStack = () => {
     );
 };
 
-export default TeckStack;
+export default TeckStacks;

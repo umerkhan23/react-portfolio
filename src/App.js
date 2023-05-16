@@ -3,7 +3,7 @@ import Loading from './loading.json';
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
-import Main from './components/Main';
+import Main from './components/Main.jsx';
 function App() {
   const [loading, setLoading] = useState(true);
 

@@ -1,17 +1,17 @@
 import React from 'react';
 import { useState, useEffect } from "react";
-import LineGradient from "./LineGradient";
+import LineGradient from "./LineGradient.jsx";
 import { motion } from "framer-motion";
 import useMediaQuery from "../hooks/useMediaQuery";
-import Navbar from "./Navbar";
-import DotGroup from "./DotGroup";
-import Home from './Home';
-import About from './About';
-import TeckStack from './TeckStack';
-import Certificates from './Certificates';
-import Projects from './Projects';
-import Contact from './Contact';
-import Footer from './Footer';
+import Navbar from "./Navbar.jsx";
+import DotGroup from "./DotGroup.jsx";
+import Home from './Home.jsx';
+import About from './About.jsx';
+import TeckStack from './TeckStacks.jsx';
+import Certificates from './Certificates.jsx';
+import Projects from './Projects.jsx';
+import Contact from './Contact.jsx';
+import Footer from './Footer.jsx';
 
 const Main = () => {
     const [selectedPage, setSelectedPage] = useState("home");

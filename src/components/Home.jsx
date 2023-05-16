@@ -1,10 +1,11 @@
 import React from 'react';
 import useMediaQuery from "../hooks/useMediaQuery";
+import Lottie from 'lottie-react';
 import { Typewriter } from 'react-simple-typewriter'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import Shape from '../assets/splash5.png'
-import Me from '../assets/2.png'
+import Shape from '../assets/background.json'
+import Me from '../assets/me.png'
 
 
 const About = () => {
@@ -13,7 +14,11 @@ const About = () => {
         <div id='home' className='bg-slate-900' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             {isDesktop ? (
                 <div className='pt-32 flex items-center bg-slate-900'>
-                    <img src={Me} alt='shape' className='relative w-1/3 mx-32' style={{filter:'drop-shadow( 10px 7px 29px 0px rgba(100, 100, 111, 0.2))'}}/>
+                    <div className='absolute top-36 ml-16 w-2/5'>
+                        <Lottie animationData={Shape} />
+                    </div>
+                    {/* <img src={Shape} alt='shape' className='absolute w-1/3'/> */}
+                    <img src={Me} alt='shape' className='relative w-1/4 mx-40' />
                     <div className='flex flex-col ml-24'>
                         <h1 className='text-3xl text-white mb-6'>Muhammad Umer Khan</h1>
                         <h1 className='text-xl text-white mb-6'>I am a
@@ -30,7 +35,7 @@ const About = () => {
                             </span>
                         </h1>
                         <p className='text-xl text-white mb-6 mr-32'>
-                        An experienced MERN stack developer with 1+ years of expertise. My portfolio showcases diverse MERN stack projects, emphasizing clean code and exceptional user experiences. I've led teams and delivered successful projects. Let's collaborate on innovative web solutions that meet evolving client needs. Explore my portfolio and connect for potential collaborations.
+                            An experienced MERN stack developer with 1+ years of expertise. My portfolio showcases diverse MERN stack projects, emphasizing clean code and exceptional user experiences. I've led teams and delivered successful projects. Let's collaborate on innovative web solutions that meet evolving client needs. Explore my portfolio and connect for potential collaborations.
                         </p>
                         <div className='flex space-x-12 justify-content-evenly'>
                             <a href='https://github.com/umerkhan23'>
@@ -67,7 +72,7 @@ const About = () => {
                             </span>
                         </h1>
                         <p className='text-xl text-slate-400 mb-6 p-4'>
-                        An experienced MERN stack developer with 1+ years of expertise. My portfolio showcases diverse MERN stack projects, emphasizing clean code and exceptional user experiences. I've led teams and delivered successful projects. Let's collaborate on innovative web solutions that meet evolving client needs. Explore my portfolio and connect for potential collaborations.
+                            An experienced MERN stack developer with 1+ years of expertise. My portfolio showcases diverse MERN stack projects, emphasizing clean code and exceptional user experiences. I've led teams and delivered successful projects. Let's collaborate on innovative web solutions that meet evolving client needs. Explore my portfolio and connect for potential collaborations.
                         </p>
                         <div className='flex space-x-12 justify-content-evenly justify-center'>
                             <a href='https://github.com/umerkhan23'>

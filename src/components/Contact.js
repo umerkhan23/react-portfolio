@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-    const form = useRef(); 
+    const form = useRef();
     const [Name, setName] = useState('');
     const [Email, setEmail] = useState('');
     const [Message, setMessage] = useState('');
@@ -10,27 +10,34 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_rue32fz', 'template_iyftzc5', form.current, 'm-XtOxdkm2ttTaUXS')
-            .then((result) => {
-                console.log(result.text);
-                alert('Your message has been sent successfully.');
-                setName('');
-                setEmail('');
-                setMessage('');
-            }, (error) => {
-                console.log(error.text);
-                alert('Error');
-                setName('');
-                setEmail('');
-                setMessage('');
-            });
+        if (Name === '' || Email === '' || Message === '') {
+            alert('Please fill all the fields.');
+            return;
+        }
+        else {
+
+            emailjs.sendForm('service_rue32fz', 'template_iyftzc5', form.current, 'm-XtOxdkm2ttTaUXS')
+                .then((result) => {
+                    console.log(result.text);
+                    alert('Your message has been sent successfully.');
+                    setName('');
+                    setEmail('');
+                    setMessage('');
+                }, (error) => {
+                    console.log(error.text);
+                    alert('Error');
+                    setName('');
+                    setEmail('');
+                    setMessage('');
+                });
+        }
     };
     return (
         <div className='relative top-20 bg-slate-900'>
             <div className='flex flex-col items-center'>
                 <h1 className='text-4xl text-center text-white font-bold py-10 p-3'>Contact</h1>
             </div>
-            <div className="text-gray-600 body-font relative" data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div className="text-gray-600 body-font relative">
                 <div className="absolute inset-0 bg-gray-300">
                     <iframe width="100%" height="100%" frameBorder="0" marginHeight="0" marginWidth="0" title="map"
                         scrolling="no"
@@ -44,11 +51,11 @@ const Contact = () => {
                         <h2 className="text-md mb-1">Gmail: umerkhanmcs23@gmail.com</h2>
                         <form ref={form} className='flex flex-col ' onSubmit={sendEmail}>
                             <label>Name</label>
-                            <input className='w-full bg-white rounded border border-gray-300 focus:border-blue-700 focus:ring-2 focus:ring-blue-600 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' type="text" name="user_name" value={Name} onChange={(e) => {setName(e.target.value)}} />
+                            <input className='w-full bg-white rounded border border-gray-300 focus:border-blue-700 focus:ring-2 focus:ring-blue-600 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' type="text" name="user_name" value={Name} onChange={(e) => { setName(e.target.value) }} />
                             <label>Email</label>
-                            <input className='w-full bg-white rounded border border-gray-300 focus:border-blue-700 focus:ring-2 focus:ring-blue-600 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' type="email" name="user_email" value={Email} onChange={(e) => {setEmail(e.target.value)}} />
+                            <input className='w-full bg-white rounded border border-gray-300 focus:border-blue-700 focus:ring-2 focus:ring-blue-600 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' type="email" name="user_email" value={Email} onChange={(e) => { setEmail(e.target.value) }} />
                             <label>Message</label>
-                            <textarea className='w-full bg-white rounded border border-gray-300 focus:border-blue-700 focus:ring-2 focus:ring-blue-600 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out' name="message" value={Message} onChange={(e) => {setMessage(e.target.value)}} />
+                            <textarea className='w-full bg-white rounded border border-gray-300 focus:border-blue-700 focus:ring-2 focus:ring-blue-600 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out' name="message" value={Message} onChange={(e) => { setMessage(e.target.value) }} />
                             <input className='text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg m-3' type="submit" value="Send" />
                         </form>
                     </div>

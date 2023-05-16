@@ -75,7 +75,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
 
         {!isDesktop && isMenuToggled && (
-          <div className="fixed right-0 bottom-0 h-full bg-slate-950 w-[300px]">
+          <div className="fixed right-0 bottom-0 h-full bg-slate-950 w-[250px] overflow-y-auto">
             {/* CLOSE ICON */}
             <div className="flex justify-end p-12">
               <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
@@ -84,7 +84,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             </div>
 
             {/* MENU ITEMS */}
-            <div className="flex flex-col gap-10 ml-[33%] text-2xl text-white">
+            <div className="flex flex-col gap-10 ml-[20%] text-2xl text-white">
               <Link
                 page="Home"
                 selectedPage={selectedPage}
@@ -115,35 +115,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
-              <a href={Resume} download className="border-blue-600 border-spacing-1 border-solid border-2 p-3 rounded-3xl hover:bg-blue-600 w-28" > Resume</a>
+              <a href={Resume} download className="border-blue-600 border-spacing-1 border-solid border-2 p-3 rounded-3xl hover:bg-blue-600 w-28 mb-10" > Resume</a>
             </div>
           </div>
         )}
       </div>
     </nav>
-
-    // <div className='flex items-center bg-slate-950 h-20'>
-    //     <div className='flex items-start ml-8 p-6 pr-16'>
-    //         <h1 className='text-xl text-white'>Muhammad Umer Khan</h1>
-    //     </div>
-    //         <div className='flex text-right ml-8 p-6 pr-16 space-x-6 absolute right-0'>
-    //             <Link to="/">
-    //                 <h1 className='text-xl text-white hover:text-blue-600'>Home</h1>
-    //             </Link>
-    //             <Link to="/TeckStack">
-    //                 <h1 className='text-xl text-white hover:text-blue-600'>Teck Stack</h1>
-    //             </Link>
-    //             <Link to="/Certificate">
-    //                 <h1 className='text-xl text-white hover:text-blue-600'>Certificates</h1>
-    //             </Link>
-    //             <Link to="/Projects">
-    //                 <h1 className='text-xl text-white hover:text-blue-600'>Projects</h1>
-    //             </Link>
-    //             <Link to="/Contact">
-    //                 <h1 className='text-xl text-white hover:text-blue-600'>Contact</h1>
-    //             </Link>
-    //         </div>
-    // </div>
   );
 };
 

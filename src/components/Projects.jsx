@@ -16,7 +16,7 @@ const Projects = () => {
             <div>
                 <h1 className='text-4xl text-center text-white font-bold p-3'>Projects</h1>
             </div>
-            <div className='flex gap-16 justify-center items-center pt-6'>
+            <div className='flex gap-8 justify-center items-center pt-6'>
                 <div id='Application' className={show1 ? 'border-spacing-2 border-solid border-blue-600 bg-blue-600 border-2 p-2 rounded-xl cursor-pointer' : "border-spacing-2 border-slate-900 border-solid border-2 p-2 rounded-xl cursor-pointer"} onClick={() => { setShow1(true); setShow2(false); setShow3(false); }} >
                     <h1 className='text-2xl text-center text-white'>Web</h1>
                 </div>

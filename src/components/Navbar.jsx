@@ -127,7 +127,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 setSelectedPage={setSelectedPage}
                 setIsMenuToggled={setIsMenuToggled}
               />
-              <a href={Resume} download className="border-blue-600 border-spacing-1 border-solid border-2 p-3 rounded-3xl hover:bg-blue-600 w-28 mb-10" > Resume</a>
+              <a href={Resume} download className="border-blue-600 border-spacing-1 border-solid border-2 p-3 rounded-3xl hover:bg-blue-600 w-32 mb-10" > Resume</a>
             </div>
           </div>
         )}

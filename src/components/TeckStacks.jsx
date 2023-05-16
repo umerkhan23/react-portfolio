@@ -223,7 +223,7 @@ const TeckStacks = () => {
                             >
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={HTML} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>HTML</h1>
                                         </div>
@@ -231,7 +231,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={CSS} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>CSS</h1>
                                         </div>
@@ -239,7 +239,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={Javascript} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>JavaScript</h1>
                                         </div>
@@ -247,7 +247,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={reactjs} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>React</h1>
                                         </div>
@@ -255,7 +255,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={Node} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>Node JS</h1>
                                         </div>
@@ -263,7 +263,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={MongoDB} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>MongoDB</h1>
                                         </div>
@@ -271,7 +271,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={Express} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>Express JS</h1>
                                         </div>
@@ -279,7 +279,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={Tailwind} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>Tailwind</h1>
                                         </div>
@@ -287,7 +287,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={Github} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>Github</h1>
                                         </div>
@@ -295,7 +295,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={Git} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>Git</h1>
                                         </div>
@@ -303,7 +303,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={MySQL} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>MySQL</h1>
                                         </div>
@@ -311,7 +311,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={FireBase} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>FireBase</h1>
                                         </div>
@@ -319,7 +319,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={JAVA} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>JAVA</h1>
                                         </div>
@@ -327,7 +327,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={CPP} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>C++</h1>
                                         </div>
@@ -335,7 +335,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={C} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>C</h1>
                                         </div>
@@ -343,7 +343,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={Python} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>Python</h1>
                                         </div>
@@ -351,7 +351,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={JQuery} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>JQuery</h1>
                                         </div>
@@ -359,7 +359,7 @@ const TeckStacks = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
+                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={Latex} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>Latex</h1>
                                         </div>

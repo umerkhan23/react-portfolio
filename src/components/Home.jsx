@@ -57,7 +57,7 @@ const Home = () => {
                         <img src={Me} alt='shape' className='w-1/2' />
                     </div>
                     <div className='flex flex-col text-center'>
-                        <h1 className='text-3xl text-white mb-6'>Muhammad Umer Khan</h1>
+                        <h1 className='text-xl text-white mb-6'>Muhammad Umer Khan</h1>
                         <h1 className='text-xl text-white mb-6'>I am a
                             <span className='text-blue-600'>
                                 <Typewriter

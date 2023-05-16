@@ -142,7 +142,7 @@ const TeckStacks = () => {
                                     <div>
                                         <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
                                             <img src={FireBase} alt="html" className='w-12' />
-                                            <h1 className='text-2xl text-white font-bold py-4'>FireBase</h1>
+                                            <h1 className='text-2xl text-white font-bold py-4'>Firebase</h1>
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -313,7 +313,7 @@ const TeckStacks = () => {
                                     <div>
                                         <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={FireBase} alt="html" className='w-12' />
-                                            <h1 className='text-2xl text-white font-bold py-4'>FireBase</h1>
+                                            <h1 className='text-2xl text-white font-bold py-4'>Firebase</h1>
                                         </div>
                                     </div>
                                 </SwiperSlide>

@@ -9,7 +9,8 @@ import { Autoplay, Parallax } from "swiper";
 const Certificates = () => {
     const isDesktop = useMediaQuery('(min-width: 1000px)');
     return (
-        <div className='relative top-20' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+        <div className='relative top-20 bg-blue-800'>
+            <div className='' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="3000">
             {isDesktop ? (
                 <div className=''>
                     <div className='flex flex-col items-center'>
@@ -161,7 +162,8 @@ const Certificates = () => {
                     </div>
                 </div>
             )}
-        </div>
+            </div>
+            </div>
     );
 };
 

@@ -71,9 +71,7 @@ const Main = () => {
                 </motion.div>
             </div>
             <div id='certificates' className="">
-                <LineGradient />
             </div>
-            <div className="bg-blue-800">
                 <div className="">
                     <motion.div
                         onHoverStart={() => setSelectedPage("certificates")}
@@ -81,6 +79,7 @@ const Main = () => {
                         <Certificates />
                     </motion.div>
                 </div>
+            <div className="bg-blue-800">
                 <div id='projects' className="">
                     <LineGradient />
                 </div>
@@ -92,9 +91,8 @@ const Main = () => {
                     </motion.div>
                 </div>
                 <div id='contact' className="">
-                    <LineGradient />
                 </div>
-                <div className="bg-slate-900">
+                <div className="">
                     <div className="">
                         <motion.div
                             onHoverStart={() => setSelectedPage("contact")}

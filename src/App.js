@@ -1,5 +1,5 @@
 import Lottie from 'lottie-react';
-import Loading from './loading.json';
+import Loading from './assets/loading.json';
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';

@@ -87,7 +87,7 @@ const About = () => {
                                     <div className='flex flex-col items-center justify-center'>
                                         <div className='flex items-center justify-center my-4 p-1 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                                             <div className='p-2'>
-                                                <img src={Graduation} alt='Graduation' className='w-16 h-16' />
+                                                <img src={Graduation} alt='Graduation' className='w-20 h-16' />
                                             </div>
                                             <div className=''>
                                                 <h1 className='text-lg text-white font-bold pt-4'>National University of Science and Technology (NUST)</h1>

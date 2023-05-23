@@ -78,7 +78,7 @@ const Home = () => {
                             <a href='https://github.com/umerkhan23'>
                                 <FontAwesomeIcon icon={faGithub} className='text-3xl text-white hover:text-blue-600 animate-pulse' />
                             </a>
-                            <a href='https://www.linkedin.com/in/muhammad-umer-khan-32989b210/'>
+                            <a href='https://www.linkedin.com/in/muhammadumerkhan23/'>
                                 <FontAwesomeIcon icon={faLinkedin} className='text-3xl text-white hover:text-blue-600 animate-pulse' />
                             </a>
                             <a href='https://twitter.com/umerkhan_23'>

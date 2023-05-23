@@ -3,7 +3,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 import MenuIcon from "../assets/menu-icon.svg";
 import CloseIcon from "../assets/close-icon.svg";
-import Resume from "../assets/Resume.pdf";
+import Resume from "../assets/Muhammad-Umer-Khan-CV.pdf";
 
 const Link = ({ page, selectedPage, setSelectedPage, setIsMenuToggled }) => {
   const lowerCasePage = page.toLowerCase();

@@ -4,6 +4,7 @@ import DeptDashboard from '../assets/Department-Dashboard.png';
 import MCSInventory from '../assets/MCS-Inventory.png';
 import WeatherApp from '../assets/Weather-Forecast.png';
 import TodoApp from '../assets/Todo-App.jpg';
+import BloodNexusWebsite from '../assets/BloodNexusWebsite.png'
 import Bank from '../assets/Bank-Management-System.png';
 import Vaccine from '../assets/Vaccination-Management-System.png';
 
@@ -30,6 +31,19 @@ const Projects = () => {
             <div className='flex items-center py-10 pb-10'>
                 {show1 && <div className='flex items-center justify-center'>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+                        <div className='group relative items-center justify-center overflow-hidden cursor-pointer rounded-xl'>
+                            <div className='h-44 w-80'>
+                                <img src={BloodNexusWebsite} alt='react' className='h-full w-full group-hover:scale-125 transition-transform duration-500' />
+                            </div>
+                            <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70 '>
+                                <div className='absolute bottom-0 inset-0 flex flex-col items-center px-10 translate-y-[100%] group-hover:translate-y-0 transition-all duration-1000'>
+                                    <h1 className='text-lg text-white font-bold pt-5'>Blood Nexus Website </h1>
+                                    <h1 className='text-md text-white font-bold pt-3'>Technologies</h1>
+                                    <h1 className='text-sm text-white font-bold pt-1'>React, Firebase</h1>
+                                    <a href='https://github.com/umerkhan23/blood-nexus-official-website' className='text-sm text-white mt-3 p-2 border-spacing-2 border-2 border-blue-600 hover:bg-blue-600 rounded-full'>View Project</a>
+                                </div>
+                            </div>
+                        </div>
                         <div className='group relative items-center justify-center overflow-hidden cursor-pointer rounded-xl'>
                             <div className='h-44 w-80'>
                                 <img src={MCSInventory} alt='react' className='h-full w-full group-hover:scale-125 transition-transform duration-500' />
@@ -116,7 +130,6 @@ const Projects = () => {
                 </div>}
                 {show3 && <div className='flex items-center justify-center'>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-                        <h1></h1>
                     </div>
                 </div>}
             </div>

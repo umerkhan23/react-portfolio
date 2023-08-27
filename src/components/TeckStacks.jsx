@@ -12,12 +12,10 @@ import Tailwind from '../assets/TailwindCSS-Light.svg';
 import FireBase from '../assets/Firebase-Light.svg';
 import Latex from '../assets/LaTeX-Light.svg';
 import CPP from '../assets/Cpp.png';
-import C from '../assets/C.svg';
 import JQuery from '../assets/JQuery.svg';
 import JAVA from '../assets/java.png';
 import Python from '../assets/python.png';
 import Github from '../assets/github.png';
-import MySQL from '../assets/mysql.png';
 import Git from '../assets/Git.svg';
 
 // Import Swiper styles
@@ -133,14 +131,6 @@ const TeckStacks = () => {
                                 <SwiperSlide>
                                     <div>
                                         <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
-                                            <img src={MySQL} alt="html" className='w-12' />
-                                            <h1 className='text-2xl text-white font-bold py-4'>MySQL</h1>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
                                             <img src={FireBase} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>Firebase</h1>
                                         </div>
@@ -159,14 +149,6 @@ const TeckStacks = () => {
                                         <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
                                             <img src={CPP} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>C++</h1>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
-                                            <img src={C} alt="html" className='w-12' />
-                                            <h1 className='text-2xl text-white font-bold py-4'>C</h1>
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -304,14 +286,6 @@ const TeckStacks = () => {
                                 <SwiperSlide>
                                     <div>
                                         <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
-                                            <img src={MySQL} alt="html" className='w-12' />
-                                            <h1 className='text-2xl text-white font-bold py-4'>MySQL</h1>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={FireBase} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>Firebase</h1>
                                         </div>
@@ -330,14 +304,6 @@ const TeckStacks = () => {
                                         <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={CPP} alt="html" className='w-12' />
                                             <h1 className='text-2xl text-white font-bold py-4'>C++</h1>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div>
-                                        <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
-                                            <img src={C} alt="html" className='w-12' />
-                                            <h1 className='text-2xl text-white font-bold py-4'>C</h1>
                                         </div>
                                     </div>
                                 </SwiperSlide>

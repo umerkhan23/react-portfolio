@@ -42,7 +42,7 @@ const Projects = () => {
                                     <h1 className='text-lg text-white font-bold pt-5'>Blood Nexus Website </h1>
                                     <h1 className='text-md text-white font-bold pt-3'>Technologies</h1>
                                     <h1 className='text-sm text-white font-bold pt-1'>React, Firebase</h1>
-                                    <a href='https://github.com/umerkhan23/blood-nexus-official-website' className='text-sm text-white mt-3 p-2 border-spacing-2 border-2 border-blue-600 hover:bg-blue-600 rounded-full'>View Project</a>
+                                    <a href='https://bloodnexus.vercel.app/' className='text-sm text-white mt-3 p-2 border-spacing-2 border-2 border-blue-600 hover:bg-blue-600 rounded-full'>View Project</a>
                                 </div>
                             </div>
                         </div>

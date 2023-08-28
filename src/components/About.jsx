@@ -38,7 +38,7 @@ const About = () => {
                                                 <div className=''>
                                                     <h1 className='text-lg text-white font-bold pt-4'>National University of Science and Technology (NUST)</h1>
                                                     <h1 className='text-sm text-white pt-2'>Bachelor's degree, Computer Software Engineering</h1>
-                                                    <h1 className='text-sm text-white pt-2'>Nov 2020 - Present</h1>
+                                                    <h1 className='text-sm text-white pt-2'>October 2020 - Present</h1>
                                                 </div>
                                             </div>
                                             <div className='flex items-center justify-center my-4 p-2 pr-36 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -48,7 +48,7 @@ const About = () => {
                                                 <div>
                                                     <h1 className='text-lg text-white font-bold pt-4'>Abdul Razzaq Fazaia College, M.M.Alam</h1>
                                                     <h1 className='text-sm text-white pt-2'>FSC, Pre-Engineering</h1>
-                                                    <h1 className='text-sm text-white pt-2'>Jun 2018 - June 2020</h1>
+                                                    <h1 className='text-sm text-white pt-2'>June 2018 - June 2020</h1>
                                                 </div>
                                             </div>
                                             <div className='flex items-center justify-center my-4 p-2 pr-36 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -80,7 +80,7 @@ const About = () => {
                                         <div className=''>
                                             <h1 className='text-lg text-white font-bold pt-4'>Blood Nexus</h1>
                                             <h1 className='text-sm text-white pt-2'>Web Developer</h1>
-                                            <h1 className='text-sm text-white pt-2'>May 2023 - Sept 2023</h1>
+                                            <h1 className='text-sm text-white pt-2'>May 2023 - September 2023</h1>
                                         </div>
                                     </div>
                                     <div className='flex items-center my-4 p-2 px-3 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900 w-full' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -88,9 +88,9 @@ const About = () => {
                                             <img src={SCOLogo} alt='SCOLogo' className='w-16 h-16' />
                                         </div>
                                         <div>
-                                            <h1 className='text-lg text-white font-bold pt-4'>SPECIAL COMMUNICATIONS ORGANIZATION</h1>
+                                            <h1 className='text-lg text-white font-bold pt-4'>Special Communication Organization (SCO)</h1>
                                             <h1 className='text-sm text-white pt-2'>Intern</h1>
-                                            <h1 className='text-sm text-white pt-2'>Jun 2023 - Aug 2023</h1>
+                                            <h1 className='text-sm text-white pt-2'>June 2023 - August 2023</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@ const About = () => {
                                             <div className=''>
                                                 <h1 className='text-lg text-white font-bold pt-4'>National University of Science and Technology (NUST)</h1>
                                                 <h1 className='text-sm text-white pt-2'>Bachelor's degree, Computer Software Engineering</h1>
-                                                <h1 className='text-sm text-white pt-2'>Nov 2020 - Present</h1>
+                                                <h1 className='text-sm text-white pt-2'>October 2020 - Present</h1>
                                             </div>
                                         </div>
                                         <div className='flex items-center justify-center my-4 p-1 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -138,7 +138,7 @@ const About = () => {
                                             <div>
                                                 <h1 className='text-lg text-white font-bold pt-4'>Abdul Razzaq Fazaia College, M.M.Alam</h1>
                                                 <h1 className='text-sm text-white pt-2'>FSC, Pre-Engineering</h1>
-                                                <h1 className='text-sm text-white pt-2'>Jun 2018 - June 2020</h1>
+                                                <h1 className='text-sm text-white pt-2'>June 2018 - June 2020</h1>
                                             </div>
                                         </div>
                                         <div className='flex items-center justify-center my-4 p-1 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -159,7 +159,7 @@ const About = () => {
                     <div className='flex items-center justify-center m-10'>
                         <div className='flex flex-col items-center pt-10'>
                             <h1 className='text-4xl text-center text-white font-bold'>Work Experience</h1>
-                            <div className='items-center w-11/12' data-aos='zoom-in' data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+                            <div className='items-center w-11/12 my-3' data-aos='zoom-in' data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                                 <Lottie animationData={Worklottie} />
                             </div>
                             <div className='flex flex-col'>
@@ -171,7 +171,7 @@ const About = () => {
                                         <div className=''>
                                             <h1 className='text-lg text-white font-bold pt-4'>Blood Nexus</h1>
                                             <h1 className='text-sm text-white pt-2'>Web Developer</h1>
-                                            <h1 className='text-sm text-white pt-2'>May 2023 - Sept 2023</h1>
+                                            <h1 className='text-sm text-white pt-2'>May 2023 - September 2023</h1>
                                         </div>
                                     </div>
                                     <div className='flex items-center w-full my-4 p-1 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -179,9 +179,9 @@ const About = () => {
                                             <img src={SCOLogo} alt='SCOLogo' className='w-28 h-16' />
                                         </div>
                                         <div>
-                                            <h1 className='text-lg text-white font-bold pt-4'>SPECIAL COMMUNICATIONS ORGANIZATION</h1>
+                                            <h1 className='text-lg text-white font-bold pt-4'>Special Communicaion Organization (SCO)</h1>
                                             <h1 className='text-sm text-white pt-2'>Intern</h1>
-                                            <h1 className='text-sm text-white pt-2'>Jun 2023 - Aug 2023</h1>
+                                            <h1 className='text-sm text-white pt-2'>June 2023 - August 2023</h1>
                                         </div>
                                     </div>
                                 </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from "react";
+import useMediaQuery from '../hooks/useMediaQuery';
 import DeptDashboard from '../assets/Department-Dashboard.png';
 import MCSInventory from '../assets/MCS-Inventory.png';
 import WeatherApp from '../assets/Weather-Forecast.png';
@@ -9,11 +10,12 @@ import Bank from '../assets/Bank-Management-System.png';
 import Vaccine from '../assets/Vaccination-Management-System.png';
 
 const Projects = () => {
+    const isDesktop = useMediaQuery('(min-width: 900px)');
     const [show1, setShow1] = useState(true);
     const [show2, setShow2] = useState(false);
     const [show3, setShow3] = useState(false);
     return (
-        <div className='relative top-20 bg-slate-900 rounded-t-[120px] flex flex-col py-10 items-center' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <div className={isDesktop ? ('relative top-20 bg-slate-900 rounded-t-[120px] flex flex-col py-10 items-center'):('relative top-20 bg-slate-900 rounded-t-[60px] flex flex-col py-10 items-center')} data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div>
                 <h1 className='text-4xl text-center text-white font-bold p-3'>Projects</h1>
             </div>
@@ -130,6 +132,7 @@ const Projects = () => {
                 </div>}
                 {show3 && <div className='flex items-center justify-center'>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+                        <h1 className='text-2xl text-white font-bold'>Coming Soon</h1>
                     </div>
                 </div>}
             </div>

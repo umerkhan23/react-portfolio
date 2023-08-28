@@ -3,7 +3,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 import MenuIcon from "../assets/menu-icon.svg";
 import CloseIcon from "../assets/close-icon.svg";
-import Resume from "../assets/Muhammad-Umer-Khan-CV.pdf";
+import Resume from "../assets/Muhammad-Umer-Khan-Resume.pdf";
 
 const Link = ({ page, selectedPage, setSelectedPage, setIsMenuToggled }) => {
   const lowerCasePage = page.toLowerCase();
@@ -45,7 +45,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               setIsMenuToggled={setIsMenuToggled}
             />
             <Link
-              page="Teckstack"
+              page="Techstack"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
               setIsMenuToggled={setIsMenuToggled}
@@ -104,7 +104,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 setIsMenuToggled={setIsMenuToggled}
               />
               <Link
-                page="Teckstack"
+                page="Techstack"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
                 setIsMenuToggled={setIsMenuToggled}

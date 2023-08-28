@@ -47,8 +47,8 @@ const Contact = () => {
                 <div className="container px-5 py-24 mx-auto flex">
                     <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
                         <h2 className="text-gray-900 text-2xl mb-2 font-medium title-font">Contact</h2>
-                        <h2 className="text-md mb-1">Mobile No: +923086899997</h2>
-                        <h2 className="text-md mb-1">Gmail: umerkhanmcs23@gmail.com</h2>
+                        <h2 className="text-md mb-1">Mobile No: <a href='tel:+923086899997' className='text-blue-500'>+923086899997</a></h2>
+                        <h2 className="text-md mb-1">Gmail: <a href='mailto:umerkhanmcs23@gmail.com' className='text-blue-500'>umerkhanmcs23@gmail.com</a></h2>
                         <form ref={form} className='flex flex-col ' onSubmit={sendEmail}>
                             <label>Name</label>
                             <input className='w-full bg-white rounded border border-gray-300 focus:border-blue-700 focus:ring-2 focus:ring-blue-600 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' type="text" name="user_name" value={Name} onChange={(e) => { setName(e.target.value) }} />

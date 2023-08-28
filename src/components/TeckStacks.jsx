@@ -23,9 +23,9 @@ import "swiper/css";
 import { Autoplay, Parallax } from "swiper";
 
 const TeckStacks = () => {
-    const isDesktop = useMediaQuery("(min-width: 1000px)");
+    const isDesktop = useMediaQuery("(min-width: 900px)");
     return (
-        <div className='relative top-20 flex flex-col bg-blue-800 rounded-t-[120px] h-[65vh]' data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <div className={isDesktop ? ('relative top-20 flex flex-col bg-blue-800 rounded-t-[120px] h-[65vh]'):('relative top-20 flex flex-col bg-blue-800 rounded-t-[60px] h-[65vh]')} data-aos='fade-up' data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             {isDesktop ? (
                 <div>
                     <div className='flex flex-col items-center'>
@@ -84,7 +84,7 @@ const TeckStacks = () => {
                                     <div>
                                         <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
                                             <img src={Node} alt="html" className='w-12' />
-                                            <h1 className='text-2xl text-white font-bold py-4'>Node JS</h1>
+                                            <h1 className='text-2xl text-white font-bold py-4'>Node.js</h1>
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -100,7 +100,7 @@ const TeckStacks = () => {
                                     <div>
                                         <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
                                             <img src={Express} alt="html" className='w-12' />
-                                            <h1 className='text-2xl text-white font-bold py-4'>Express JS</h1>
+                                            <h1 className='text-2xl text-white font-bold py-4'>Express.js</h1>
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -140,7 +140,7 @@ const TeckStacks = () => {
                                     <div>
                                         <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-3xl shadow-lg shadow-slate-900'>
                                             <img src={JAVA} alt="html" className='w-12' />
-                                            <h1 className='text-2xl text-white font-bold py-4'>JAVA</h1>
+                                            <h1 className='text-2xl text-white font-bold py-4'>Java</h1>
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -239,7 +239,7 @@ const TeckStacks = () => {
                                     <div>
                                         <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={Node} alt="html" className='w-12' />
-                                            <h1 className='text-2xl text-white font-bold py-4'>Node JS</h1>
+                                            <h1 className='text-2xl text-white font-bold py-4'>Node.js</h1>
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -255,7 +255,7 @@ const TeckStacks = () => {
                                     <div>
                                         <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={Express} alt="html" className='w-12' />
-                                            <h1 className='text-2xl text-white font-bold py-4'>Express JS</h1>
+                                            <h1 className='text-2xl text-white font-bold py-4'>Express.js</h1>
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -295,7 +295,7 @@ const TeckStacks = () => {
                                     <div>
                                         <div className='flex flex-col items-center justify-center m-4 py-12 bg-gray-700 rounded-xl shadow-lg shadow-slate-900'>
                                             <img src={JAVA} alt="html" className='w-12' />
-                                            <h1 className='text-2xl text-white font-bold py-4'>JAVA</h1>
+                                            <h1 className='text-2xl text-white font-bold py-4'>Java</h1>
                                         </div>
                                     </div>
                                 </SwiperSlide>

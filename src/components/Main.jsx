@@ -60,12 +60,12 @@ const Main = () => {
                     <About />
                 </motion.div>
             </div>
-            <div id='teckstack' className="">
+            <div id='techstack' className="">
                 <LineGradient />
             </div>
             <div className="">
                 <motion.div
-                    onHoverStart={() => setSelectedPage("teckstack")}
+                    onHoverStart={() => setSelectedPage("techstack")}
                 >
                     <TeckStack />
                 </motion.div>

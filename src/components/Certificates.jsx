@@ -44,7 +44,7 @@ const Certificates = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="items-center justify-center overflow-hidden cursor-pointer rounded-xl p-8">
-                                        <a href='https://lms.digiskills.pk/MyResults/MyResults.aspx'>
+                                        <a href='https://digiskills.pk/verify/'>
                                             <div className='h-[400px] w-[550px]'>
                                                 <img src={Freelancer} alt="Certificate" className='h-[400px] w-[550px]' />
                                             </div>
@@ -53,7 +53,7 @@ const Certificates = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="items-center justify-center overflow-hidden cursor-pointer rounded-xl p-8">
-                                        <a href='https://lms.digiskills.pk/MyResults/MyResults.aspx'>
+                                        <a href='https://digiskills.pk/verify/'>
                                             <div className='h-[400px] w-[550px]'>
                                                 <img src={GraphicDesigner} alt="Certificate" className='h-[400px] w-[550px]' />
                                             </div>
@@ -61,7 +61,7 @@ const Certificates = () => {
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <div className="items-center justify-center overflow-hidden cursor-pointer rounded-xl p-8">
+                                    <div className="items-center justify-center overflow-hidden rounded-xl p-8">
                                         <div className='h-[400px] w-[550px]'>
                                             <img src={SCOCertificate} alt="Certificate" className='h-[400px] w-[550px]' />
                                         </div>
@@ -101,7 +101,7 @@ const Certificates = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="items-center justify-center overflow-hidden cursor-pointer rounded-xl p-8">
-                                        <a href='https://lms.digiskills.pk/MyResults/MyResults.aspx'>
+                                        <a href='https://digiskills.pk/verify/'>
                                             <div className='h-[250px] w-full'>
                                                 <img src={Freelancer} alt="Certificate" className='h-[250px] w-full' />
                                             </div>
@@ -110,7 +110,7 @@ const Certificates = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="items-center justify-center overflow-hidden cursor-pointer rounded-xl p-8">
-                                        <a href='https://lms.digiskills.pk/MyResults/MyResults.aspx'>
+                                        <a href='https://digiskills.pk/verify/'>
                                             <div className='h-[250px] w-full'>
                                                 <img src={GraphicDesigner} alt="Certificate" className='h-[250px] w-full' />
                                             </div>
@@ -118,7 +118,7 @@ const Certificates = () => {
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <div className="items-center justify-center overflow-hidden cursor-pointer rounded-xl p-8">
+                                    <div className="items-center justify-center overflow-hidden rounded-xl p-8">
                                         <div className='h-[250px] w-full'>
                                             <img src={SCOCertificate} alt="Certificate" className='h-[250px] w-full' />
                                         </div>
